@@ -29,8 +29,8 @@ Tt        = 216.65 # tropopause temperature [K]
 T0        = Ts     # reference temperature [K]
 p0        = 1e5    # reference pressure [Pa]
 T0_hitran = 296.   # HITRAN reference temperature [K]
-T_spec    = 250    # temperature to calculate spectra at [K]
-p_spec    = 1e4    # pressure to calculate spectra at [Pa]
+T_spec    = T0     # temperature to calculate spectra at [K]
+p_spec    = p0     # pressure to calculate spectra at [Pa]
 
 # spectral grid 
 nS       = 500000                     # number of spectral intervals []
